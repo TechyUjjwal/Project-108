@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    background-color: coral;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkblue;
+    font-style: oblique;
+}
+
+#ear{
+    width: 200px;
+    height: 200px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: azure;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    background-color: darkkhaki;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px rgb(150, 147, 149);
+}

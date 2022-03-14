@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Voice</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+   
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="col-xs-12" id="header_div text-center">
+        <h2>Sound Controlled Animals</h2>
+        <p id="note">Play different sounds like roar,bark</p>
+    </div>
+
+    <div class="main_div">
+        <center>
+          <br>
+          <br>
+          <button class="btn btn-warning" style="font-family: monospace;" onclick="startClassification();">Start</button>
+          <br>
+          <h3 id="name" style="font-family: cursive;"></h3>
+          <h3 id="result_label" style="font-family: cursive; color: indigo;">I can hear- </h3>
+          <br>
+          <br>
+          <img src="ear.png" id="ear" alt="Some error">
+
+        </center>
+    </div>
+    <div class="copy_right_footer">
+      Developed by - Ujjwal
+    </div>
+    
+
+
+
+</body>
+</html>
